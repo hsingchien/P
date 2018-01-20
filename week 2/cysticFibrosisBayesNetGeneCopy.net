@@ -1,0 +1,509 @@
+net
+{
+	node_size = (90.0 36.0);
+	propagationenginegenerator1791944048146838126L = "edu.ucla.belief.approx.BeliefPropagationSettings@549a3577";
+}
+
+node EvaPhenotype
+{
+	states = ("CysticFibrosis" "NoCysticFibrosis" );
+	position = (581 -35);
+	ismapvariable = "false";
+	label = "EvaPhenotype";
+	diagnosistype = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node JamesPhenotype
+{
+	states = ("CysticFibrosis" "NoCysticFibrosis" );
+	position = (1361 -35);
+	ismapvariable = "false";
+	label = "JamesPhenotype";
+	diagnosistype = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node ReneParent1GeneCopy
+{
+	states = ("F" "f" "n" );
+	position = (2076 65);
+	ismapvariable = "false";
+	label = "ReneParent1GeneCopy";
+	diagnosistype = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node JasonParent1GeneCopy
+{
+	states = ("F" "f" "n" );
+	position = (1556 -135);
+	ismapvariable = "false";
+	label = "JasonParent1GeneCopy";
+	diagnosistype = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node SandraPhenotype
+{
+	states = ("CysticFibrosis" "NoCysticFibrosis" );
+	position = (321 -235);
+	ismapvariable = "false";
+	label = "SandraPhenotype";
+	diagnosistype = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node EvaParent1GeneCopy
+{
+	states = ("F" "f" "n" );
+	position = (516 65);
+	ismapvariable = "false";
+	label = "EvaParent1GeneCopy";
+	diagnosistype = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node EvaParent2GeneCopy
+{
+	states = ("F" "f" "n" );
+	position = (646 65);
+	ismapvariable = "false";
+	label = "EvaParent2GeneCopy";
+	diagnosistype = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node RobinParent1GeneCopy
+{
+	states = ("F" "f" "n" );
+	position = (776 265);
+	ismapvariable = "false";
+	label = "RobinParent1GeneCopy";
+	diagnosistype = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node JamesParent2GeneCopy
+{
+	states = ("F" "f" "n" );
+	position = (1426 65);
+	ismapvariable = "false";
+	label = "JamesParent2GeneCopy";
+	diagnosistype = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node JamesParent1GeneCopy
+{
+	states = ("F" "f" "n" );
+	position = (1296 65);
+	ismapvariable = "false";
+	label = "JamesParent1GeneCopy";
+	diagnosistype = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node AaronParent1GeneCopy
+{
+	states = ("F" "f" "n" );
+	position = (-4 65);
+	ismapvariable = "false";
+	label = "AaronParent1GeneCopy";
+	diagnosistype = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node ReneParent2GeneCopy
+{
+	states = ("F" "f" "n" );
+	position = (2206 65);
+	ismapvariable = "false";
+	label = "ReneParent2GeneCopy";
+	diagnosistype = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node BenjaminParent1GeneCopy
+{
+	states = ("F" "f" "n" );
+	position = (1816 -135);
+	ismapvariable = "false";
+	label = "BenjaminParent1GeneCopy";
+	diagnosistype = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node AaronPhenotype
+{
+	states = ("CysticFibrosis" "NoCysticFibrosis" );
+	position = (61 -35);
+	ismapvariable = "false";
+	label = "AaronPhenotype";
+	diagnosistype = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node RobinPhenotype
+{
+	states = ("CysticFibrosis" "NoCysticFibrosis" );
+	position = (841 165);
+	ismapvariable = "false";
+	label = "RobinPhenotype";
+	diagnosistype = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node IraParent2GeneCopy
+{
+	states = ("F" "f" "n" );
+	position = (1166 265);
+	ismapvariable = "false";
+	label = "IraParent2GeneCopy";
+	diagnosistype = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node JasonPhenotype
+{
+	states = ("CysticFibrosis" "NoCysticFibrosis" );
+	position = (1621 -235);
+	ismapvariable = "false";
+	label = "JasonPhenotype";
+	diagnosistype = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node AaronParent2GeneCopy
+{
+	states = ("F" "f" "n" );
+	position = (126 65);
+	ismapvariable = "false";
+	label = "AaronParent2GeneCopy";
+	diagnosistype = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node IraParent1GeneCopy
+{
+	states = ("F" "f" "n" );
+	position = (1036 265);
+	ismapvariable = "false";
+	label = "IraParent1GeneCopy";
+	diagnosistype = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node JasonParent2GeneCopy
+{
+	states = ("F" "f" "n" );
+	position = (1686 -135);
+	ismapvariable = "false";
+	label = "JasonParent2GeneCopy";
+	diagnosistype = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node SandraParent1GeneCopy
+{
+	states = ("F" "f" "n" );
+	position = (256 -135);
+	ismapvariable = "false";
+	label = "SandraParent1GeneCopy";
+	diagnosistype = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node BenjaminPhenotype
+{
+	states = ("CysticFibrosis" "NoCysticFibrosis" );
+	position = (1881 -235);
+	ismapvariable = "false";
+	label = "BenjaminPhenotype";
+	diagnosistype = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node RobinParent2GeneCopy
+{
+	states = ("F" "f" "n" );
+	position = (906 265);
+	ismapvariable = "false";
+	label = "RobinParent2GeneCopy";
+	diagnosistype = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node IraPhenotype
+{
+	states = ("CysticFibrosis" "NoCysticFibrosis" );
+	position = (1101 165);
+	ismapvariable = "false";
+	label = "IraPhenotype";
+	diagnosistype = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node SandraParent2GeneCopy
+{
+	states = ("F" "f" "n" );
+	position = (386 -135);
+	ismapvariable = "false";
+	label = "SandraParent2GeneCopy";
+	diagnosistype = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node RenePhenotype
+{
+	states = ("CysticFibrosis" "NoCysticFibrosis" );
+	position = (2141 -35);
+	ismapvariable = "false";
+	label = "RenePhenotype";
+	diagnosistype = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node BenjaminParent2GeneCopy
+{
+	states = ("F" "f" "n" );
+	position = (1946 -135);
+	ismapvariable = "false";
+	label = "BenjaminParent2GeneCopy";
+	diagnosistype = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+potential ( EvaPhenotype | EvaParent1GeneCopy EvaParent2GeneCopy )
+{
+	data = (((	0.8	0.2	)
+		(	0.6	0.4	)
+		(	0.1	0.9	))
+		((	0.6	0.4	)
+		(	0.5	0.5	)
+		(	0.05	0.95	))
+		((	0.1	0.9	)
+		(	0.05	0.95	)
+		(	0.01	0.99	)));
+}
+potential ( JamesPhenotype | JamesParent1GeneCopy JamesParent2GeneCopy )
+{
+	data = (((	0.8	0.2	)
+		(	0.6	0.4	)
+		(	0.1	0.9	))
+		((	0.6	0.4	)
+		(	0.5	0.5	)
+		(	0.05	0.95	))
+		((	0.1	0.9	)
+		(	0.05	0.95	)
+		(	0.01	0.99	)));
+}
+potential ( ReneParent1GeneCopy | )
+{
+	data = (	0.1	0.7	0.2	);
+}
+potential ( JasonParent1GeneCopy | JamesParent1GeneCopy JamesParent2GeneCopy )
+{
+	data = (((	1.0	0.0	0.0	)
+		(	0.5	0.5	0.0	)
+		(	0.5	0.0	0.5	))
+		((	0.5	0.5	0.0	)
+		(	0.0	1.0	0.0	)
+		(	0.0	0.5	0.5	))
+		((	0.5	0.0	0.5	)
+		(	0.0	0.5	0.5	)
+		(	0.0	0.0	1.0	)));
+}
+potential ( SandraPhenotype | SandraParent1GeneCopy SandraParent2GeneCopy )
+{
+	data = (((	0.8	0.2	)
+		(	0.6	0.4	)
+		(	0.1	0.9	))
+		((	0.6	0.4	)
+		(	0.5	0.5	)
+		(	0.05	0.95	))
+		((	0.1	0.9	)
+		(	0.05	0.95	)
+		(	0.01	0.99	)));
+}
+potential ( EvaParent1GeneCopy | IraParent1GeneCopy IraParent2GeneCopy )
+{
+	data = (((	1.0	0.0	0.0	)
+		(	0.5	0.5	0.0	)
+		(	0.5	0.0	0.5	))
+		((	0.5	0.5	0.0	)
+		(	0.0	1.0	0.0	)
+		(	0.0	0.5	0.5	))
+		((	0.5	0.0	0.5	)
+		(	0.0	0.5	0.5	)
+		(	0.0	0.0	1.0	)));
+}
+potential ( EvaParent2GeneCopy | RobinParent1GeneCopy RobinParent2GeneCopy )
+{
+	data = (((	1.0	0.0	0.0	)
+		(	0.5	0.5	0.0	)
+		(	0.5	0.0	0.5	))
+		((	0.5	0.5	0.0	)
+		(	0.0	1.0	0.0	)
+		(	0.0	0.5	0.5	))
+		((	0.5	0.0	0.5	)
+		(	0.0	0.5	0.5	)
+		(	0.0	0.0	1.0	)));
+}
+potential ( RobinParent1GeneCopy | )
+{
+	data = (	0.1	0.7	0.2	);
+}
+potential ( JamesParent2GeneCopy | RobinParent1GeneCopy RobinParent2GeneCopy )
+{
+	data = (((	1.0	0.0	0.0	)
+		(	0.5	0.5	0.0	)
+		(	0.5	0.0	0.5	))
+		((	0.5	0.5	0.0	)
+		(	0.0	1.0	0.0	)
+		(	0.0	0.5	0.5	))
+		((	0.5	0.0	0.5	)
+		(	0.0	0.5	0.5	)
+		(	0.0	0.0	1.0	)));
+}
+potential ( JamesParent1GeneCopy | IraParent1GeneCopy IraParent2GeneCopy )
+{
+	data = (((	1.0	0.0	0.0	)
+		(	0.5	0.5	0.0	)
+		(	0.5	0.0	0.5	))
+		((	0.5	0.5	0.0	)
+		(	0.0	1.0	0.0	)
+		(	0.0	0.5	0.5	))
+		((	0.5	0.0	0.5	)
+		(	0.0	0.5	0.5	)
+		(	0.0	0.0	1.0	)));
+}
+potential ( AaronParent1GeneCopy | )
+{
+	data = (	0.1	0.7	0.2	);
+}
+potential ( ReneParent2GeneCopy | )
+{
+	data = (	0.1	0.7	0.2	);
+}
+potential ( BenjaminParent1GeneCopy | JamesParent1GeneCopy JamesParent2GeneCopy )
+{
+	data = (((	1.0	0.0	0.0	)
+		(	0.5	0.5	0.0	)
+		(	0.5	0.0	0.5	))
+		((	0.5	0.5	0.0	)
+		(	0.0	1.0	0.0	)
+		(	0.0	0.5	0.5	))
+		((	0.5	0.0	0.5	)
+		(	0.0	0.5	0.5	)
+		(	0.0	0.0	1.0	)));
+}
+potential ( AaronPhenotype | AaronParent1GeneCopy AaronParent2GeneCopy )
+{
+	data = (((	0.8	0.2	)
+		(	0.6	0.4	)
+		(	0.1	0.9	))
+		((	0.6	0.4	)
+		(	0.5	0.5	)
+		(	0.05	0.95	))
+		((	0.1	0.9	)
+		(	0.05	0.95	)
+		(	0.01	0.99	)));
+}
+potential ( RobinPhenotype | RobinParent1GeneCopy RobinParent2GeneCopy )
+{
+	data = (((	0.8	0.2	)
+		(	0.6	0.4	)
+		(	0.1	0.9	))
+		((	0.6	0.4	)
+		(	0.5	0.5	)
+		(	0.05	0.95	))
+		((	0.1	0.9	)
+		(	0.05	0.95	)
+		(	0.01	0.99	)));
+}
+potential ( IraParent2GeneCopy | )
+{
+	data = (	0.1	0.7	0.2	);
+}
+potential ( JasonPhenotype | JasonParent1GeneCopy JasonParent2GeneCopy )
+{
+	data = (((	0.8	0.2	)
+		(	0.6	0.4	)
+		(	0.1	0.9	))
+		((	0.6	0.4	)
+		(	0.5	0.5	)
+		(	0.05	0.95	))
+		((	0.1	0.9	)
+		(	0.05	0.95	)
+		(	0.01	0.99	)));
+}
+potential ( AaronParent2GeneCopy | )
+{
+	data = (	0.1	0.7	0.2	);
+}
+potential ( IraParent1GeneCopy | )
+{
+	data = (	0.1	0.7	0.2	);
+}
+potential ( JasonParent2GeneCopy | ReneParent1GeneCopy ReneParent2GeneCopy )
+{
+	data = (((	1.0	0.0	0.0	)
+		(	0.5	0.5	0.0	)
+		(	0.5	0.0	0.5	))
+		((	0.5	0.5	0.0	)
+		(	0.0	1.0	0.0	)
+		(	0.0	0.5	0.5	))
+		((	0.5	0.0	0.5	)
+		(	0.0	0.5	0.5	)
+		(	0.0	0.0	1.0	)));
+}
+potential ( SandraParent1GeneCopy | EvaParent1GeneCopy EvaParent2GeneCopy )
+{
+	data = (((	1.0	0.0	0.0	)
+		(	0.5	0.5	0.0	)
+		(	0.5	0.0	0.5	))
+		((	0.5	0.5	0.0	)
+		(	0.0	1.0	0.0	)
+		(	0.0	0.5	0.5	))
+		((	0.5	0.0	0.5	)
+		(	0.0	0.5	0.5	)
+		(	0.0	0.0	1.0	)));
+}
+potential ( BenjaminPhenotype | BenjaminParent1GeneCopy BenjaminParent2GeneCopy )
+{
+	data = (((	0.8	0.2	)
+		(	0.6	0.4	)
+		(	0.1	0.9	))
+		((	0.6	0.4	)
+		(	0.5	0.5	)
+		(	0.05	0.95	))
+		((	0.1	0.9	)
+		(	0.05	0.95	)
+		(	0.01	0.99	)));
+}
+potential ( RobinParent2GeneCopy | )
+{
+	data = (	0.1	0.7	0.2	);
+}
+potential ( IraPhenotype | IraParent1GeneCopy IraParent2GeneCopy )
+{
+	data = (((	0.8	0.2	)
+		(	0.6	0.4	)
+		(	0.1	0.9	))
+		((	0.6	0.4	)
+		(	0.5	0.5	)
+		(	0.05	0.95	))
+		((	0.1	0.9	)
+		(	0.05	0.95	)
+		(	0.01	0.99	)));
+}
+potential ( SandraParent2GeneCopy | AaronParent1GeneCopy AaronParent2GeneCopy )
+{
+	data = (((	1.0	0.0	0.0	)
+		(	0.5	0.5	0.0	)
+		(	0.5	0.0	0.5	))
+		((	0.5	0.5	0.0	)
+		(	0.0	1.0	0.0	)
+		(	0.0	0.5	0.5	))
+		((	0.5	0.0	0.5	)
+		(	0.0	0.5	0.5	)
+		(	0.0	0.0	1.0	)));
+}
+potential ( RenePhenotype | ReneParent1GeneCopy ReneParent2GeneCopy )
+{
+	data = (((	0.8	0.2	)
+		(	0.6	0.4	)
+		(	0.1	0.9	))
+		((	0.6	0.4	)
+		(	0.5	0.5	)
+		(	0.05	0.95	))
+		((	0.1	0.9	)
+		(	0.05	0.95	)
+		(	0.01	0.99	)));
+}
+potential ( BenjaminParent2GeneCopy | ReneParent1GeneCopy ReneParent2GeneCopy )
+{
+	data = (((	1.0	0.0	0.0	)
+		(	0.5	0.5	0.0	)
+		(	0.5	0.0	0.5	))
+		((	0.5	0.5	0.0	)
+		(	0.0	1.0	0.0	)
+		(	0.0	0.5	0.5	))
+		((	0.5	0.0	0.5	)
+		(	0.0	0.5	0.5	)
+		(	0.0	0.0	1.0	)));
+}
