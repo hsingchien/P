@@ -1,0 +1,8 @@
+Describe your method used to recognize the unknown actions here.
+The method is simple, and it reaches 97.8% accuracy (I don't know why).
+
+I simply integrated the datasetTraining1, datasetTest1 into a big training set. Test dataset provide another 30 examples for each class. Note that previous tasks provided datasetTraining1, datasetTraining2 and datasetTraining3, they are the same data in fact with only difference on the initials.
+
+I did not use the InitialClassProb and InitialPairProbas provided in datasetTraining3 (these will only give ~60% accuracy). Instead, I used the initial probs from datasetTraining1. And for actions in the datasetTest1, I simply assigned random probs (normalized) to them. I set maxIer=30. Using this model the prediction somehow reached 97%. However if you use datasetTraining1 it will only give ~60% accuracy, same with datasetTraining3. So the the difference maker is not the initial probabilities, but the 30 datasetTest for each class really.
+
+Including previous test set as training set may not be elegant or even legitimate when it comes to the real-life machine learning tasks, it somehow works on this particular task. I only tried it for curious, and it gave unexpected outputs. 
